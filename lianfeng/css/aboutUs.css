@@ -1,0 +1,80 @@
+body{font-family: "microsoft yahei";}
+.banner_bk{background: url(../images/aboutUs_banner_02.jpg) no-repeat center;}
+.banner{height: 705px;position: relative;}
+/*二级导航*/
+.subnav{position: absolute;bottom: 0;left: 221px;}
+.subnav li{height: 67px;width: 182px;margin-right: 10px;float: left;background: white;opacity: .8;text-align: center;line-height: 67px;font-size: 20px;}
+.subnav .last{margin-right: 0;}
+.subnav .ac{background: #e1b51a;}
+/*-----------------------------------------------------------------*/
+/*选项卡内容*/
+.prititle{width: 687px;height: 271px;margin: 0 auto;margin-top: 85px;margin-bottom: 79px;}
+.more{width: 39px;height: 39px;position: absolute;right: 68px;bottom: 57px;background: #ddb117;color: white;line-height: 39px;font-size: 20px;text-align: center;}
+.more:hover{background: white;color: #ddb117;}
+.subtitle{width: 293px;height: 158px;margin: 0 auto;}
+/*企业概况*/
+.branch1 .prititle{background: url(../images/about_us_sketchiest_bk_06.jpg) no-repeat;position: relative;}
+.branch1 .subtitle{background: url(../images/aboutUs_sketchiest.jpg) no-repeat;margin-bottom: 68px;}
+.branch1 .text p{text-indent: 2em;line-height: 39px;}
+.branch1 .text{padding-bottom: 132px;}
+.branch1 .bot{margin-bottom: 82px;position: relative;}
+.branch1 .cover{width: 100%;height: 214px;background: #000;opacity: .8;position: absolute;left: 0;top: -60px;text-align: center;}
+.branch1 .cover h3{line-height: 66px;height: 66px;padding-top: 59px;font-size: 40px;font-weight: 200;color: white;}
+.branch1 .cover p{line-height: 50px;height: 50px;font-size: 24px;font-weight: 200;color: white;}
+/*企业荣誉*/
+.branch2 .prititle{background: url(../images/prititle_03.png) no-repeat;position: relative;}
+.branch2 .subtitle1{background: url(../images/aboutUs_sketchiest_subtitle1.jpg) no-repeat;margin-bottom: 68px;}
+.branch2 .text{text-align: center;line-height: 60px;letter-spacing: 3px;color: #8c8b8b;padding-bottom: 62px;}
+.branch2 .subtitle2{background: url(../images/subtitle2_11.png) no-repeat;padding-bottom: 164px;}
+.branch2 .showroom{position: relative;}
+.branch2 .showroom_top{width: 1194px;height: 675px;border: 3px solid #e1b51a;margin-bottom: 29px;}
+.branch2 .showroom_top .showroom_bigPic{width: 1174px;height: 655px;padding: 10px;position: absolute;left: 0;top: 0;z-index: -1;transition: 1s;}
+.branch2 .showroom_top .showroom_bigPic img{width: 100%;height: 100%;}
+
+
+.branch2 .showroom_bot{width: 1194px;height: 237px;border: 3px solid #e1b51a;margin-bottom: 100px;}
+.branch2 .showroom_bot_inner{width: 1152px;height: 187px;border: 3px solid #e1b51a;margin-top: 26px;margin-left: 18px;}
+.branch2 .showroom_bot_inner .showroom_list{width: 1040px;height: 187px;float: left;overflow: hidden;position: relative;}
+.branch2 .showroom_bot_inner .showroom_list ul{position: absolute;}
+.branch2 .showroom_bot_inner .showroom_list li{width: 198px;height: 177px;padding: 5px;float: left;opacity: .8;}
+.branch2 .showroom_bot_inner .showroom_list li:hover{opacity: 1;}
+.branch2 .showroom_bot_inner .showroom_list li img{width: 100%;height: 100%;}
+.branch2 .showroom_bot_inner .showroom_l_btb{float: left;}
+.branch2 .showroom_bot_inner  .showroom_r_btb{float: left;}
+.branch2 .showroom_cover{height: 124px;width: 100%;background: #000;opacity: .8;position: absolute;left: 0;top: -79px;text-align: center;}
+.branch2 .showroom_cover .text_content{width: 160px;height: 41px;background: white;border: 1px solid #302f2e;color: #595959;text-align: center;line-height: 41px;float: left;margin-top: 21px;cursor: pointer;}
+.branch2 .showroom_cover .text_content:hover{color: white;background: #e1b51a;}
+.branch2 .showroom_cover .text_content1{margin-right: 54px;}
+.branch2 .showroom_cover .text_wrap{display: inline-block;}
+.branch2 .bot{padding-bottom: 103px;position: relative;}
+.branch2 .cover{height: 213px;background: #000;opacity: .8;position: absolute;top: -63px;width: 1198px;text-align: center;}
+.branch2 .cover h3{line-height: 66px;height: 66px;padding-top: 59px;font-size: 40px;font-weight: 200;color: white;font-weight: 300;}
+.branch2 .cover p{line-height: 50px;height: 50px;font-size: 24px;font-weight: 200;color: white;}
+/*发展战略*/
+.branch3 .prititle{background: url(../images/branch3_prititle_03.png) no-repeat;position: relative;}
+.branch3 .subtitle{background: url(../images/branch3_subtitle2_07.png) no-repeat;margin-bottom: 22px;}
+.b3_item{height: 530px;}
+.b3_item_left{width: 336px;float: left;}
+.b3_item_mid{width: 363px;float: left;padding-right: 55px;}
+.b3_item_mid h3{line-height: 41px;height: 41px;padding-top: 143px;font-size: 24px;color: #272322;font-weight: normal;}
+.b3_item_mid h4{font-weight: normal;height: 19px;line-height: 19px;font-size: 14px;color: #e1b51a;padding-bottom: 11px;text-transform: uppercase;}
+.b3_item_mid .line{width: 363px;height: 2px;background: #000000;margin-bottom: 25px;}
+.b3_item_mid p{width: 363px;line-height: 36px;font-size: 18px;padding-bottom: 20px;}
+.b3_item_mid ._right{text-align: right;width: 363px;}
+.b3_item_right{float: left;}
+.b3_item_right .pic{padding-top: 143px;}
+.b3_item_last{height: 370px;}
+.b3_item_last .b3_item_mid h3{line-height: 41px;height: 41px;padding-top: 0;font-size: 24px;color: #272322;font-weight: normal;}
+.b3_item_last .disc{line-height: 30px;font-size: 14px;padding-top: 40px;}
+.b3_bot{background: url(../images/bot_img_31.png) no-repeat center;}
+.b3_bot_inner{height: 410px;}
+/*人才招聘*/
+.branch4 .prititle{background: url(../images/b4_prititle_03.png) no-repeat;position: relative;}
+.branch4 .subtitle{background: url(../images/b4_subtitle_07.png) no-repeat;margin-bottom: 60px;}
+.branch4 .text{width: 595px;padding-left: 320px;padding-bottom: 250px;}
+.b4_bot{padding-bottom: 78px;position: relative;padding: 0;}
+.b4_cover{height: 213px;width: 1200px;position: absolute;}
+.b4_pic{width: 1200px;height: 414px;margin-bottom: 103px;}
+.b4_cover{height: 213px;background: #000;opacity: .8;position: absolute;top: -110px;width: 1198px;text-align: center;}
+.b4_cover h3{line-height: 66px;height: 66px;padding-top: 59px;font-size: 40px;font-weight: 200;color: white;font-weight: 300;}
+.b4_cover p{line-height: 50px;height: 50px;font-size: 24px;font-weight: 200;color: white;}

@@ -1,0 +1,69 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea{margin:0;padding:0;}
+ul,ol,li{list-style: none;}
+i{font-style: normal;font-family: conslolas;}
+a{text-decoration: none;}
+img,input,textarea,button{border: none;}
+body{font-family: arial,"microsoft yahei";}
+.clearfix:after{content: "200B";display: block;font-size: 0;height: 0;clear: both;}
+.inner{width: 1200px;margin: 0 auto;}
+
+/*头部样式*/
+.header-top{height: 89px;border: 1px solid #dbdbdb;}
+.logo{margin-top:23px;float:left;}
+.header-top-right{float: right;width: 342px;}
+.header-top-right{height: 29px;}
+.header-top-right dl{padding-top: 33px;}
+.header-top-right i{width: 29px;height: 29px;background-color: #818181 ;border-radius:50%;display: inline-block;float: left;margin-right: 10px;}
+.header-top-right dt:nth-child(1) i{background-image:url(../images/tianmao_pic_img_a_03.jpg);background-position: center;background-repeat: no-repeat;}
+.header-top-right dt:nth-child(1) i:hover{background-image:url(../images/tianmao_pic_img_d_03.jpg);transition:background-image .5s}
+.header-top-right dt:nth-child(2) i{background-image:url(../images/tianmao_pic_img_b_05.jpg);background-position: center;background-repeat: no-repeat;}
+.header-top-right dt:nth-child(2) i:hover{background-image:url(../images/tianmao_pic_img_c_03.jpg);transition:background-image .5s; }
+.header-top-right dt,dd{float: left;height:29px;line-height: 29px;}
+.header-top-right dt{margin-right: 23px;}
+.header-top-right dt a{font-size: 14px;color: #595959;}
+.header-top-right dd span{margin: 0 10px;}
+.header-top-right dd a{font-size: 12px;color: #595959;color: #515151;}
+.nav-header{float: left;}
+.nav-header li{height: 53px;border-bottom: 1px solid transparent;float: left;line-height: 53px;}
+.nav-header li a{padding: 0 30px;color: #212121;display: block;}
+.nav-header .act{border-color:#e8aa10;background-color: #f8f8f8;}
+.nav-header .act a{color: #e8aa10;}
+.nav-header .active{border-color:#e8aa10;background-color: #f8f8f8;}
+.nav-header .active a{color: #e8aa10;}
+.header-bot .sousuo{width: 140px;float: right;padding-top: 16px;}
+.header-bot .sousuo .search{width: 112px;height: 23px;float: left;line-height: 23px;padding-left: 5px;background-color: #f8f8f8;font-size: 11px;color: #a0a0a0;}
+.header-bot .sousuo .btn{width:23px;height: 23px;float: left;background-color: #f4a502;}
+.header .popup{height: 175px;background: #ccc;position: absolute;top: 145px;left: 0;width: 100%;z-index: 2;}
+.header .popup ul{width: 995px;margin: 0 auto;}
+.header .popup li{width: 179px;margin: 25px 10px 0;background: #666;height: 107px;float: left;text-align: center;}
+.header .popup li a{display: block;width: 100%;height: 100%;}
+.header .popup li span{font-size: 14px;padding-top: 10px;color: #666;display: block;}
+.header .hide{display: none;}
+
+.footer{background-color: #f0f0f0;height: 267px;}
+.footer h3{height: 37px;line-height: 37px;font-size: 18px;color: #6a4336;padding-top: 19px;}
+.footer .line{width: 36px;height: 1px;background-color: #eca80d;}
+.footer-left{width: 446px;position: relative;float: left;}
+.footer-left li{width: 175px;height: 40px;border: 1px solid #d0d0d0;position: relative;margin-top: 19px;}
+.footer-left li a{color: #565656;font-size: 14px;line-height: 40px;padding-left: 46px;}
+.footer-left li i{position: absolute;}
+.footer-left .erweima{height: 162px;width: 162px;border: 1px solid #d0d0d0;position: absolute;top: 74px;left: 200px;}
+.footer-left .erweima img{margin: 16px;}
+.footer-mid{float: left;width: 354px;}
+.footer-mid li{font-size: 14px;color: #565656;height: 23px;line-height: 23px;padding-top: 13px;}
+.footer-mid li a{color:#565656 ;}
+.footer-right{float: left;width: 400px;}
+.footer-right li{float: left;width:100px;height: 100px;}
+.footer-right .rongyu li img{padding: 27.5px;}
+.footer-right span{float: left;font-size: 11px;color: #6e6e6e;}
+.footer-right .span1{padding-right:28px;}
+.footer-right .span2{padding-right:10px;}
+.footer-right .span3{padding-right:22px;}
+.footer-right .fenxiang{padding-top: 80px;}
+.footer-right .fenxiang span{font-size: 14px;color: #565656;float: left;margin-right: 2px;}
+.footer-right .fenxiang li{height: 20px;width: 20px;float: left;margin: 0 2px;}
+.footer-right .fenxiang li img{height: 100%;width: 100%;}
+.f-bottom{height: 42px;background-color: #292625;}
+.f-bottom p{font-size: 12px;color: #787373;line-height: 42px;float: left;padding-right: 17px;}
+.f-bottom span{font-size: 12px;color: #787373;line-height: 42px;float: left;}
+.f-bottom .span-right{float: right;}

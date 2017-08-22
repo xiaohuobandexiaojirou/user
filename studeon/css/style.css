@@ -1,0 +1,62 @@
+body,ul,h1,h2,h3,h4,h5,h6,p,li,input,dl,dd{margin:0;padding:0;}
+ul{list-style: none;}
+a{text-decoration:none;}
+img,input{border:none;}
+body{font-family: arial,"Micorsoft YaHei","宋体";}	
+.header{height:83px;box-shadow: 0 0 8px 0 rgba(0,0,0,05);position:relative;z-index:2;}
+.h_inner{width:1140px;margin:0 auto;}
+.h_inner .logo{float:left;width:153px;height:39px;padding:16px 152px 0 0;}
+.h_inner ul{height:83px;float:left}
+.h_inner li{float:left;}
+.h_inner li a{padding:0 24px;line-height:80px;height:80px;font-size: 15px;color:#465248;display:block;border-top:3px solid transparent;}
+.h_inner li .first{background:url(../images/h_t_b_03.jpg) repeat-x top;border-top:3px solid #ee5744;}
+.h_inner ul a:hover{background:url(../images/h_t_b_03.jpg) repeat-x top;border-top:3px solid #ee5744;color:#e2600a;}
+.h_inner .icon{float:right;padding-top:29px}
+.h_inner .icon a{width:23px;height:22px;display: block;margin-left:7px;float:left;background-image:url(../images/s-icons.png);background-repeat: no-repeat;background-position:-242px -7px;}
+.h_inner .icon .a0:hover{background-position:-268px -46px; 	}
+.h_inner .icon .a1{background-position:-268px -7px; 	}
+.h_inner .icon .a1:hover{background-position:-268px -46px;}
+.h_inner .icon .a2{background-position:-294px -7px; 	}
+.h_inner .icon .a2:hover{background-position:-294px -46px; 	}
+.h_inner .icon .a3{background-position:-319px -7px; 	}
+.h_inner .icon .a3:hover{background-position:-319px -46px; 	}
+.h_inner .icon .a4{background-position:-344px -7px; 	}
+.h_inner .icon .a4:hover{background-position:-344px -46px; 	}
+.h_inner .icon .a5{background-position:-369px -7px; 	}
+.h_inner .icon .a5:hover{background-position:-369px -46px; 	}
+.footer{background-color:#373737;height:273px;width:100%;}
+.f_inner{width:1140px;margin:0 auto;}
+.f_inner .list{float:left;width:252px;padding-right:33px;margin-left:15px}
+.f_inner .second{margin-left:0}
+.f_inner .list img{width:132px;height:3px}
+.f_inner .list h3{color:#FFFfff;font-family: arial;font-size: 16px;height:47px;line-height:47px;padding-top: 14px;font-weight:bold}
+.f_inner .list3 h3{color:#FFFfff;font-family: arial;font-size: 16px;height:47px;line-height:47px;padding-top: 14px;font-weight:bold}
+.f_inner .list p{color: #9c9ba0;font-family: arial;font-size: 13px;line-height:23px;padding-bottom:17px}
+.f_inner .list .text1{padding-top:14px}
+.f_inner .second .box{padding-top:20px}
+.f_inner .list .box a{height:37px;background-color:#222222;padding:0 10px;display:block;font-size:12px;color:#9c9ba0;line-height:37px;float:left;margin:2px 3px 2px 0}
+.f_inner .list3 img{width:132px;height:3px}
+.f_inner .list3{float:left;width:252px;padding-right:33px;}
+.f_inner .list3 .text2{padding:0 10px 0 31px}
+.f_inner .list3 .part{background:url(../images/footer_bg_07.jpg) no-repeat 1px 8px;}
+.f_inner .list3 .part1{margin-top:14px}
+.f_inner .list3 .text2 p{color: #9c9ba0;font-family: arial;font-size: 12px;line-height:21px;}
+.f_inner .list3 .text2 a{color: #d3d3d3;font-family: arial;font-size: 12px;font-weight:bold;}
+.f_inner .list3 h4{color:#FFFfff;font-family: arial;font-size: 12px;line-height:32px;height:32px;font-weight:bold}
+.f_inner .list4 h3{color:#FFFfff;font-family: arial;font-size: 16px;height:47px;line-height:47px;padding-top: 14px;font-weight:bold}
+.f_inner .list4 img{width:132px;height:3px}
+.f_inner .list4{float:left;width:252px;padding-right:18px;}
+.f_inner .list4 .part2{padding-top:13px;}
+.f_inner .list4 .box{margin:0 3px 3px 0;float:left;width:81px;height:71px;position:relative;}
+.f_inner .list4 .box img{width:100%;height:100%}
+.f_inner .list4 .box a{width:100%;height:100%;background:rgba(0,0,0,0.5);position:absolute;left: 0;top: 0;display:none;}
+.f_inner .list4 .box:hover a{display:block;}
+
+.bottom{float:left;background-color:#232323;height:52px;width:100%;}
+.bottom .icon a{width:33px;height:18px;}
+.bottom .icon{position:fixed;right:0;bottom:0;background-color:rgba(0,0,0,0)}
+.bottom .bot_inner{width:1140px;margin:0 auto}
+.bottom .bot_inner .b_logo{float:left;width:95px;height:22px;margin-top:15px}
+.bottom .bot_inner .right{float:right;}
+.bottom .bot_inner .right p{color:#d9d9d9;line-height:52px;height:52px;font-size:14px;}
+.bottom .bot_inner .right span{color:#c1513d}

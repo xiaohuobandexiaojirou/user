@@ -1,0 +1,107 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,p,input,textarea,dd,dl{margin: 0;padding:0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+img,textarea,input{border:none}
+body{font-family: arial,"Micrsoft YaHei",'宋体';}
+a{color:#666}
+a:hover{color:#b61d1d}
+.clearfix:after{
+	content:"200B";
+	display:block;
+	font-size: 0;
+	height:0;
+	clear:both;
+	/*content: ".";
+	display: block;
+	height:0;
+	visibility: hidden;
+	clear:both;*/
+}
+/*清楚浮动预设*/
+.clearfix{*zoom:1}
+/*兼容低版本*/
+i{font-family: consolas;}
+/*整个样式预设*/
+.top{background-color:#f1f1f1}
+.t_inner{width:1210px;margin: 0 auto;}
+.top .up .diqu{float:left;line-height:30px;height:30px;font-size: 12px;}
+.top .up ul{float:right}
+.top .up li{font-family:"宋体";float:left;height:30px;line-height:30px;font-size:12px;color:#666666;}
+.top .up a span{background:url(../images/jd2015img.png) no-repeat 0 0;width:15px;height:20px;margin-top:5px;float:left;}
+.top .up a{color:#666666;padding:0 10px;display: inline-block;}
+.top .up.abox2
+.top .line{width:1px;height:12px;background-color:#dddddd;margin-top:9px;}
+.top i{font-size:12px;width:11px;height:5px;display:inline-block;font-style:normal;overflow:hidden;line-height:0;margin-left:10px;vertical-align:center;margin-bottom: 2px;}
+.top .up a:hover span{background-position:0 -25px;color:#b61d1d}
+.top .up ul li{position:relative}
+.top .up ul li .twolist{position:absolute;left:0;top:30px;display: none;width:100px;border:1px solid #000}
+.top .up .active:hover{background-color:#FFFFFF}
+.top .up a:hover{color:#b61d1d}
+.top .up li .a1:hover{color:#b61d1d}
+.top .up li .a2:hover{color:#b61d1d}
+.top .up li .a1{color:#666666;padding:0 0}
+.top .up li .a2{color:#b61d1d;padding:0 10px 0 6px;}
+/*顶部top样式*/
+.h_inner{width:1210px;margin: 0 auto;}
+.h_inner .shang{padding-bottom: 20px;}
+.h_inner .shang .logo{padding:20px 92px 0 0;float:left}
+.h_inner .zhong{float:left}
+.h_inner .zhong form{float:left;margin-top: 25px;}
+.h_inner .zhong form .text{width:454px;height:32px;border:2px solid #b61d1d;line-height:32px;font-size:13px;float:left}
+.h_inner .zhong form .sub{width:80px;height:36px;line-height:36px;font-size:16px;background-color:#b61d1d;color:#FFFFFF;float:left;cursor:pointer}
+.h_inner .zhong .imp a{line-height:28px;height:28px;width:50px;float:left;font-size:12px;margin-right: 11px;overflow: hidden;}
+.h_inner .zhong .imp .fis{color:#b61d1d}
+.h_inner .buy{float:right;width:137px;height:34px;line-height:34px;font-size:12px;border:1px solid #dfdfdf;margin:25px 65px 0 0;background:#f9f9f9 url(../images/jd2015img.png) no-repeat 18px -49px;position:relative;}
+.h_inner .buy a{vertical-align: center;margin-left:44px}
+.h_inner .buy i{font-size:12px;font-family:consolas;float:right;padding-right:11px;}
+.h_inner .buy span{padding:0 5px;height:14px;font-size:12px;background:#c81623;display:block;line-height: 14px;color:#FFFFFF;text-align: center;border-radius:7px 7px 7px 0;position:absolute;left:104px;top:-3px;}
+/*.h_inner .kong{clear:both;}用于请浮动的属性*/
+.header{border-bottom:2px solid #b1191a}
+.header .sort{padding-left:10px;float:left;width:200px;height:44px;background-color:#b1191a;color:#FFFFFF;line-height:44px;}
+.header .nav li{float:left;height:44px;line-height:44px;padding:0 20px}
+/*.h_inner .kong1{clear:both;}用于请浮动的属性*/
+/* 头部header样式  */
+.page_inner{width:1210px;margin: 0 auto;}
+/*整个page_inner 居中属性*/
+.page1{margin-top:10px;}
+.page1 .box1{float:left;background:url(../images/homebg.png) no-repeat -213px -136px;width:210px;height:151px;}
+.page1 .box1 a{width:210px;height:151px;display: block;}
+.page1 .box2{margin-right:1px;float:left;width:230px;height:151px;background-color:#eeeeee;padding-left:19px;position: relative;}
+.page1 h4{font-size:17px;line-height: 37px;height:37px;color:#333333;margin-top:24px;}
+.page1 .tuwen{text-align:center;width:92px;height:18px;line-height:18px;background-color:#fc0e1b;color:#FFFFFF;font-size:14px}
+.page1 p{font-size:12px;line-height: 24px;height:24px;color:#333333}
+.page1 .img{width:53px;height:113px;position:absolute;right:37px;bottom:-4px;border-radius: 5px;}
+.page1 .img:hover{transform: translateY(10px);transition: transform .5s}
+/*.page_inner .kong3{clear:both;}用于请浮动的属性*/
+.page2{margin-top:28px;position: relative;}
+.page2 h2{float:left;font-size:20px;line-height: 41px;height:41px;color:#333333}
+.page2 h2 i{float:right;width:200px;margin-top:13px;height:15px;background:url(../images/homebg.png) no-repeat 0 -101px}
+.page2 .line-star{width:365px;height:5px;position: absolute;right: 0;top:39px;background:url(../images/homebg.png) no-repeat 0 -124px}
+.page2 .change a{float:left;display:block;color:#666666;}
+.page2 .change{float:right;font-size:12px;line-height: 41px;height:41px;color:#666666;}
+.page2 .change i{float:right;width:20px;height:20px;background:url(../images/homebg.png) no-repeat -350px -6px ;margin-top: 10px;}
+.page2 .change:hover i{background-position:-350px -30px ;}
+.page2 .change:hover a{color:#b61d1d;}
+.page2 .up{height:41px;}
+.page2 .like{width:1208px;border:1px solid #d1d1d1}
+.page2 .list{float:left;width:201px;height:230px;}
+.page2 .list .pics{width:200px;height:160px;position:relative;}
+.page2 .list img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.page2 .list img:hover{transform: translatex(10px);transition: transform .5s}
+.page2 .list .text p{font-size:12px;line-height: 18px;color:#666666}
+.page2 .list .text span{font-size:16px;line-height: 21px;color:#b51d1a;padding-top:5px;}
+.page2 .list .text{padding-left:36px;border-right: 1px solid #d1d1d1;}
+.page2 .list .last{border-right:none}
+/*page1和page2样式属于第一个page_inner*/
+.page0 .list ul{font-family: "微软雅黑";}
+.page0 .list{float:left;border:1px solid #b61d1d;width:209px;height:465px;}
+.page0 .list li{background-color:#c81623;color:#FFFFFF;padding-left:10px;font-size:14px;line-height: 31px;height:31px;position:relative;z-index: 10;}
+.page0 .list li h3{font-weight:normal;font-size: 14px;width:172px;height:31px;overflow: hidden;}
+.page0 .list li a{color:#FFFFFF;}
+/*.page0 .list li:hover a{color:red;text-decoration:underline;}
+.page0 .list li:hover{background-color:#f7f7f7;color:red}*/
+.page0 .list .wrap:hover .pomop{display:none;}
+.page0 .list li a:active{color:#000000;}
+.page0 .list li a:hover{font-weight:bold}
+.page0 .list li i{position:absolute;right:13px;top:0;font-family: consolas;font-size:13px;}
+/*page0样式*/

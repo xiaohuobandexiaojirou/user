@@ -1,0 +1,32 @@
+.banner{background: #f1f2f6;}
+.inner{width: 1200px;margin: 0 auto;}
+a{font-size:14px;color:#5a5a5a;}
+.banner .inner{width: 1200px;height:442px;background:url(../images/service_banner.png) no-repeat;background-position: -360px 0;position: relative;}
+.banner ul li{width: 182px;height: 68px;font-size: 20px;line-height: 68px;text-align: center;background: #fff;cursor: pointer;opacity: .8}
+.banner ul .ac{background: #e1b51a;}
+.banner .service{position: absolute;left: 413px;top: 375px;}
+.banner .contact{position: absolute;left: 615px;top: 375px;}
+.wrap .select .title{height: 70px;line-height: 70px;position: relative;}
+.wrap .select .title i{width: 16px;height: 16px;background: url(../images/locationicon.png);display: block;position: absolute;left: 0;top:25px;}
+.wrap .select .title a{margin-left: 20px;}
+.wrap .select .line{width: 100%;height: 1px;background: #dedede;margin-bottom: 17px;}
+.wrap .select h3{font-size: 24px;font-weight: normal;text-transform: uppercase;height: 47px;line-height: 47px;}
+.wrap .select .yellowline{width: 93px;height: 7px;background: #eeae23;}
+.wrap .select .box{width: 154px;height: 42px;border: 1px solid #000;line-height: 42px;text-align: center;font-size: 24px;font-weight: bold;margin-top: 19px;margin-bottom: 30px;}
+.wrap .select .pic{position: relative;}
+.wrap .select .pic .modal{width: 1200px;height: 450px;background: #000000;position: absolute;top:0px;opacity: 0;cursor: pointer;}
+.wrap .select .pic .modal:hover{opacity: .5;}
+.wrap .select .cont{width: 297px;height: 336px;float: left;margin-right: 3px;}
+.wrap .select .cont .text{line-height: 20px;font-size: 14px;padding-top: 22px;padding-right: 30px;}
+.wrap .select .contmap{margin-bottom: 50px;}
+.wrap .select .contmap .map{width:719px;height: 632px; float: left;}
+.wrap .select .contmap .map img{width: 100%;}
+.wrap .select .contmap .conbox{float: right;position: relative;}
+.wrap .select .contmap .adr{width: 416px;height: 228px;float: right;border-bottom: 1px dashed #000;padding-left: 50px;}
+.wrap .select .contmap .conbox{font-size: 18px;color: #5A5A5A;}
+.wrap .select .contmap .conbox .adr i{width: 32px;height: 4px;background: #eeae23;position: absolute;left: 7px;top: 15px;}
+.wrap .select .contmap .conbox p{line-height: 34px;}
+.wrap .select .contmap .conbox span{line-height: 30px;margin-bottom: 12px;display: block;}
+.wrap .select .contmap .conbox .code i{width: 30px;height: 30px; border:1px solid #e6e3e3;display: inline-block;position: absolute;top: 246px;background-image: url(../images/qqicon.png);background-size: cover;background-position: -9px 0}
+.wrap .select .contmap .conbox .code{margin-left: 25px;}
+

@@ -1,0 +1,51 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,li,select,option{margin:0;padding:0;}
+ul, ol, li,select,option{list-style: none;}
+i{font-style: normal;font-family: conslolas;}
+img,input,textarea{border: none;}
+body{font-family: arial,"microsoft yahei";}
+a{text-decoration: none;}
+.clearfix:after{content: "200B";display: block;font-size: 0;height: 0;clear: both;}
+.inner{width: 1200px;margin: 0 auto;}
+.product4_banner{height: 707px;background: url(../images/product_03.png) no-repeat center 0;margin-bottom: 60px;}
+.product4_main .con1 .icon{text-align: center;}
+.product4_main .con1 .icon img{margin-top: 30px;}
+.product4_main .con1 .icon p{height: 51px;line-height: 51px;font-size: 12px;text-transform: uppercase;color: #262620;}
+.product4_main .con1{font-size: 0;width: 1200px;overflow: hidden;}
+.product4_main .conLast{margin-bottom: 100px;}
+.product4_main .con1 .pic1 img{width: 1200px;}
+.product4_main .con1 .more{height: 60px;width: 226px;border: 1px solid #d4d4d2;line-height: 60px;color: #fff;font-size: 18px;display: block;background: #262620;text-align: center;margin: 34px 0 86px 0;}
+.product4_main .con1 .active{background:#BDBEBB;color:#000;}/*hover效果 */
+.product4_main .relative{position: relative;}
+.product4_main .con1 .text1{position: absolute;background: #fff;width: 262px;height: 252px;top: 0;left: 600px;text-align: center;}
+.product4_main .con1 .text2{position: absolute;background: #fff;width: 262px;height: 476px;top: 0;left: 339px;text-align: center;}
+.product4_main .con1 .text1 h2{height: 60px;width: 262px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text2 h2{height: 60px;width: 262px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text1 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:48px ;}
+.product4_main .con1 .text2 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; border-bottom: 1px solid #262620;margin-bottom: 16px;}
+.product4_main .con1 .text2 .txt1{width: 168px;line-height: 20px;font-size: 12px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; text-transform: uppercase;font-family: arial;}
+.product4_main .con1 .text3{position: absolute;background: #fff;width: 336px;height: 476px;top: 0;left: 264px;text-align: center;}
+.product4_main .con1 .text3 h2{height: 60px;width: 336px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text3 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:80px ;}
+.product4_main .con1 .pic4{height: 566px;width: 1200px;}
+.product4_main .con1 .text4{position: absolute;background: #fff;width: 262px;height: 476px;top: 0;left: 599px;text-align: center;}
+			
+.product4_main .con1 .text4 h2{height: 60px;width: 262px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text4 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; margin-bottom: 16px;}
+.product4_main .con1 .text4 .txt1{width: 168px;line-height: 20px;font-size: 12px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; text-transform: uppercase;font-family: arial;}
+.product4_main .pics4{position: absolute;top: 0;left: 264px;}
+.product4_main .con1 .text5{position: absolute;background: #fff;width: 262px;height: 334px;top: 0;left: 600px;text-align: center;}
+.product4_main .con1 .text5 h2{height: 60px;width: 262px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text5 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:48px ;}
+.product4_main .con1 .text6{position: absolute;background: #fff;width: 262px;height: 453px;top: 0;left: 600px;text-align: center;}
+.product4_main .con1 .text6 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; margin-bottom: 16px;}
+.product4_main .con1 .text6 .txt1{width: 168px;line-height: 20px;font-size: 12px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; text-transform: uppercase;font-family: arial;}
+.product4_main .con1 .pic5{height: 453px;width: 1200px;}
+.product4_main .pics5{position: absolute;top: 0;left: 195px;}
+.product4_main .con1 .text7{position: absolute;background: #fff;width: 262px;height: 264px;top: 0;left: 260px;text-align: center;}
+.product4_main .con1 .text7 h2{height: 60px;width: 262px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text7 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:48px ;}
+.product4_main .con1 .text8{position: absolute;background: #fff;width: 262px;height: 480px;top: 0;left: 521px;text-align: center;}
+.product4_main .con1 .text8 h2{height: 60px;width: 262px;font-size: 24px;color: #262620;line-height: 60px;margin-top: 46px;}
+.product4_main .con1 .text8 .txt{width: 168px;line-height: 30px;font-size: 14px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; margin-bottom: 16px;}
+.product4_main .con1 .text8 .txt1{width: 168px;line-height: 20px;font-size: 12px;color: #262620;margin-left:20px ;padding:0 25px 15px 25px; text-transform: uppercase;font-family: arial;}
+			

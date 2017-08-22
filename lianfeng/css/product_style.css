@@ -1,0 +1,19 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea{margin:0;padding:0;}
+			ul,ol,li{list-style: none;}
+			i{font-style: normal;font-family: conslolas;}
+			a{text-decoration: none;}
+			img,input,textarea,button{border: none;}
+			body{font-family: arial,"microsoft yahei";}
+			.clearfix:after{content: "200B";display: block;font-size: 0;height: 0;clear: both;}
+			.inner{width: 1200px;margin: 0 auto;}
+			.product_header .top{height: 38px;border-bottom: 1px solid #dbdbdb;} 
+			.product_header .top .search{height: 38px;width: 41px;border-right: 1px solid #dbdbdb;float: right;background: url(../images/product_search_03.png) no-repeat center;}
+			.product_header .top .en{height: 37px;width: 43px;background: #efefef;text-transform: uppercase;font-size: 12px;line-height: 37px;text-align: center;float: right;border-top: 1px solid #dbdbdb;border-left: 1px solid #dbdbdb;border-right: 1px solid #dbdbdb;}
+			.product_header .top .tel{height: 38px;font-size:14px ;line-height: 38px;text-align: center;color: #212121;float: right;padding: 0 15px;}
+			.product_header .top .call{height: 14px;width: 14px;background: url(../images/product_tel_03.png) no-repeat;display: inline-block;padding: 0 6px;}
+			.product_header .bot .logo{float: left;margin-top: 22px;}
+			.product_header .bot ul{float: right;}
+			.product_header .bot ul li{float: left;height: 66px;line-height: 66px;font-size: 14px;padding: 0 19px;color: #212121;border-bottom: 2px solid transparent;}
+			.product_header .bot ul .yellow{border-bottom: 2px solid #efad23;background: #f8f8f8;}
+			.product_header .bot ul li:hover{border-bottom: 2px solid #efad23;background: #f8f8f8;}
+			.product_header .bot ul li a{color: #212121;}

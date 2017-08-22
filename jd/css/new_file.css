@@ -1,0 +1,31 @@
+.page4 .mid{width:1209px;height:632px;border:1px solid #ededed;border-left: none;border-top: none;}
+.page4 .mid_l{float:left;width:330px}
+.page4 .mid_l .pic{width:330px;height:346px;overflow: hidden;position:relative;}
+.page4 .mid_l .pic:hover img{transform:translateY(-10px);transition: transform .5s;}
+.page4 .mid_l .pics{padding:10px 5px 10px 25px;width:300px;height:72px;background-color:rgba(238,238,238,0.7);position: absolute;left: 0;bottom: 0;}
+.page4 .mid_l .pics ul li{width:68px;height:26px;line-height: 26px;font-size: 14px;float:left;background:url(../images/clothesicon.png) no-repeat;padding-left: 32px;overflow: hidden;}
+.page4 .mid_l .pics ul .yi{margin-bottom: 20px;}
+.page4 .mid_l .pics ul .er{margin-bottom: 20px;background-position: 0 -26px;}
+.page4 .mid_l .pics ul .san{margin-bottom: 20px;background-position: 0 -52px;}
+.page4 .mid_l .pics ul .si{background-position: 0 -78px;}
+.page4 .mid_l .pics ul .wu{background-position: 0 -104px;}
+.page4 .mid_l .pics ul .liu{background-position: 0 -130px;}
+.page4 .mid_l .text{width:280px;height:96px;background: #f5f5f5;padding:16px 25px; }
+.page4 .mid_l .advertise{width:328px;height:157px;border:1px solid #ededed;overflow: hidden;}
+.page4 .mid_l .advertise:hover img{transform:scale(1.1);transition: transform .5s;}
+.page4 .mid_l .text_l{float:left;width:120px;margin-right: 39px;}
+.page4 .mid_l .text_l li{float:left;width:60px;height:24px;overflow: hidden;}
+.page4 .mid_l .text_r{margin-right: 0;}
+.page4 .mid_l .text_l a{display:block;float:left;line-height:24px ;height:24px;color:#999999;font-size: 12px;font-family: "宋体";margin-right: 11px;overflow: hidden;}
+.page4 .mid_l .text_l a:hover{color:#c81623}
+.page4 .mid_m{background:#FFFFFF;width:439px;float:left;border-right:1px solid #ededed;overflow: hidden;}
+.page4 .mid_m img{float:left;width:100%;height:100%;}
+.page4 .mid_m img:hover{float:left;width:100%;height:100%;transform: translateX(10px);transition: transform .5s;}
+.page4 .mid_m .img2{float:left;width:439px;height:315px;border-bottom:1px solid #ededed;border-top:1px solid #ededed;}
+.page4 .mid_m .img3{width:439px;height:158px;float:left}
+.page4 .mid_m .img1{width:439px;height:157px;float:left}
+.page4 .mid_r{width:439px;float:left;}
+.page4 .mid_r .shose{width:219px;float:left;border-right:1px solid #ededed;}
+.page4 .mid_r .glass{width:219px;float:left;}
+.page4 .mid_r img:hover{transform: translateX(10px);transition: transform .5s;}
+.page4 .mid_r li{width:219px;height:157px;overflow: hidden;border-bottom: 1px solid #ededed;background-color: #f8f6f7;}

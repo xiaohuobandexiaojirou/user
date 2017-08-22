@@ -1,0 +1,99 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,p,input,textarea,dd,dl{margin: 0;padding:0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+a{color:#494e4f}
+a:hover{color:#ce1c1c}
+img,textarea,input{border:none}
+body{font-family: arial,"Micrsoft YaHei",'宋体';}
+.clearfix:after{
+	content:"200B";
+	display:block;
+	font-size: 0;
+	height:0;
+	clear:both;
+	/*content: ".";
+	display: block;
+	height:0;
+	visibility: hidden;
+	clear:both;*/
+}
+/*banner区域样式*/
+.grow_banner{position:relative;height:500px;margin: 0 auto;background:url(../images/grow_banner_02.jpg) no-repeat center}
+/*二级导航*/
+.grow_banner .subnav{position: absolute;bottom: 0;left:35%}
+.grow_banner .subnav li{height: 67px;width: 182px;margin-right: 10px;float: left;background: white;opacity: .8;text-align: center;line-height: 67px;font-size: 20px;cursor: pointer;}
+.grow_banner .subnav .last{margin-right: 0;}
+.grow_banner .subnav .ac{background: #e1b51a;}
+/*main区域样式*/
+/*main 中up区域样式*/
+.grow_main .grow_mian_up{border-bottom: 1px solid #dedede;}
+.grow_main .grow_mian_up ul{background:url(../images/grow_up_pic_03.jpg) no-repeat 30px bottom;height:18px;padding-top:30px;margin: 0 auto;width:1150px;padding-left:50px;}
+.grow_main .grow_mian_up ul li{float:left;font-size:14px ;color:#5a5a5a}
+/*main——mid样式；*/
+.grow_main .grow_main_mid{margin: 0 auto;width:1200px;text-align: center;}
+.grow_main .grow_main_mid .facebiaozhun{margin-top:40px;}
+.grow_main .grow_main_mid h3{height:54px;line-height: 54px;margin-top: 7px;font-size: 39px;}
+.grow_main .grow_main_mid p{height:30px;line-height: 30px;font-size:18px;margin-bottom: 60px;}
+/*各个页面main——bot样式*/
+.grow_main .grow_main_bot{margin:0 auto;width:1200px;}
+/*销售网络*/
+.grow_main .grow_main_bot .grow_mian_bot_h2{color:#5a5a5a;width:600px;line-height:47px;font-size: 39px;}
+.grow_main .grow_main_bot .grow_mian_bot_h3{color:#5a5a5a;line-height:28px;font-size: 18px;margin-bottom: 10px;}
+.grow_main .grow_main_bot .grow_mian_bot_pA{color:#686868;line-height:23px;font-size: 14px;}
+.grow_main .grow_main_bot .grow_mian_bot_pB{color:#686868;line-height:23px;font-size: 14px;}
+.grow_main .grow_main_bot .grow_mian_bot_chinapic{transition:background 1s;width:604px;height:497px;background:url(../images/grow_main_bot_chinapic_03.jpg) no-repeat center center;margin:0 auto;margin-bottom: 116px;cursor: pointer;}
+.grow_main .grow_main_bot .grow_mian_bot_chinapic:hover{background:url(../images/grow_main_bot_chinapic_04_03.jpg) no-repeat center center;}
+/*终端形象*/
+.grow_main .grow_main_bot .grow_main_bot_facetobox_right{position:relative;padding:0 10px;float:left;width:380px;text-align: center;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox_right .grow_main_bot_facetobox_wrap{width:380px;height:699px;overflow: hidden;position: relative;top:0;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox_right .grow_main_bot_facetobox_wrap .grow_main_bot_facetobox_wrap_pic{position: absolute;top:0}
+.grow_main .grow_main_bot .grow_main_bot_facetobox_left{float:left;width:770px;padding-top: 50px;padding-left:30px;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox{width:1200px;height:800px;background:#2a201f;margin-bottom: 72px;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox .grow_main_bot_facetobox_picA{overflow:hidden;float:left;width:770px;height:698px;float:left;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox .grow_main_bot_facetobox_picA img{width:100%;height:100%;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox  .grow_main_bot_facetobox_buttonup{float:left;width:380px;height:50px;background:#261e1d url(../images/grow_main_bot_img_picE_03.jpg) no-repeat center center;cursor: pointer;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox  .grow_main_bot_facetobox_buttonup:hover{background:#261e1d url(../images/grow_main_bot_img_picE_07_05.jpg) no-repeat center center;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox  .grow_main_bot_facetobox_buttondown{float:left;width:380px;height:50px;background:#261e1d url(../images/grow_main_bot_img_picD_16_01.jpg) no-repeat center center;cursor:pointer}
+.grow_main .grow_main_bot .grow_main_bot_facetobox  .grow_main_bot_facetobox_buttondown:hover{background:#261e1d url(../images/grow_main_bot_img_picD_15.jpg) no-repeat center center;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox .grow_main_bot_facetobox_picB{float:left;width:380px;height:193px;float:left;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox .grow_main_bot_facetobox_picC{padding-bottom: 60px;}
+.grow_main .grow_main_bot .grow_main_bot_facetobox .grow_main_bot_facetobox_picB_middel{padding:60px 0;}
+/*  发展历程  样式*/
+.grow_main .grow_main_bot .grow_main_textA{position:relative;border-left:1px dotted #ccc;float:left;width:785px;margin:0 15px 103px;}
+.grow_main .grow_main_bot .grow_main_textA .year1985{padding-bottom: 29px;}
+.grow_main .grow_main_bot .grow_main_textA .year1988{padding-bottom: 45px;}
+.grow_main .grow_main_bot .grow_main_textA .year1995{padding-bottom: 24px;}
+.grow_main .grow_main_bot .grow_main_textA .year2015{padding-bottom: 6px;}
+.grow_main .grow_main_bot .grow_main_botpic{float:right}
+.grow_main .grow_main_bot .grow_main_textA p{background:url(../images/grow_main_pic_0_07.jpg) no-repeat left 3px;padding-bottom: 20px;float:left;font-size: 14px;color:#8e8e8e;line-height: 24px;padding-left: 24px;margin-left:-11px ;}
+.grow_main .grow_main_bot .grow_main_textA .grow_main_text_top{cursor:pointer;position:absolute;left:-14px;top:-20px;}
+.grow_main .grow_main_bot .grow_main_textA .grow_main_text_bot{cursor:pointer;position:absolute;left:-14px;bottom: -20px;}
+/*品牌影像样式*/
+.grow_main .grow_main_bot .grow_main_pictrueA{margin-bottom:26px;width:1200px;height:340px;background:#261e1d}
+.grow_main .grow_main_bot .grow_main_pictrueA_last{margin-bottom: 103px;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_text h3{height:52px;line-height: 52px;font-size: 24px;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_text{padding-left:37px;color:#fcfbfb;width:500px;float:right;padding-top:80px;padding-right:263px}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_pictrueA_left{position:relative;width:400px;float:left;cursor: pointer;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_pictrueA_left .grow_main_pic_buttun{display:none;position:absolute;left:0;top:0;width:400px;height:340px;background:rgba(0,0,0,0.45);}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_pictrueA_left .grow_main_pic_buttun img{position: absolute;
+left: 50%;margin-left: -40px;top:50%;margin-top:-40px;border-radius: 50%;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_pictrueA_left:hover .grow_main_pic_buttun{display: block;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_text p{line-height:17px;font-size: 14px;margin-bottom:10px ;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_text button{width:196px;height:48px;background:#eeae23;color:#fff;border:3px solid #4b4443;cursor: pointer;}
+.grow_main .grow_main_bot .grow_main_pictrueA .grow_main_text button:hover{background:#292020;}/*hover效果*/
+/*品牌专卖店*/
+.grow_main .grow_main_bot .grow_main_bot_pic .last{margin-bottom:170px;}
+.grow_main .grow_main_bot .grow_main_bot_pic .grow_mian_bot_picA{position:relative;float:left;width:364px;height:364px;transition:transform 1s;margin:34px 18px 0}
+.grow_main .grow_main_bot .grow_main_bot_pic .grow_mian_bot_picA img{width:100%;height:100%}
+.grow_main .grow_main_bot .grow_main_bot_pic .grow_mian_bot_picA:hover{transform: scale(1.1);}/*hover效果*/
+.grow_main .grow_main_bot .grow_main_bot_pic .grow_mian_bot_picA .grow_main_bot_textA{overflow:hidden;text-align:center;font-size:14px;position:absolute;left:0;bottom:0;width:364px;height:72px;line-height: 72px;background:rgba(0,0,0,0.5)}
+.grow_main .grow_main_bot .grow_main_bot_pic .grow_mian_bot_picA .grow_main_bot_textA a{color:#fff;}
+.grow_main .grow_main_bot .grow_main_bot_pic .grow_mian_bot_picA .grow_main_bot_textA a:hover{color:#ce1c1c;}
+/*.grow_main .grow_main_bot .grow_main_bot_pic .middel{margin:34px 20px 0;}*/
+.grow_main .grow_main_bot .grow_main_bot_pic .lasts{margin-top:43px;margin-bottom: 38px;;}
+.grow_main .grow_main_bot .grow_main_bot_button .buttonA{cursor:pointer;float:left;width:35px;line-height:35px;color:#000;text-align:center;height:35px;background:#fff;transition: background-color .3s;}
+.grow_main .grow_main_bot .grow_main_bot_button .ac{background:#f2b835;}
+.grow_main .grow_main_bot .grow_main_bot_button{margin-bottom:25px;width:1200px;margin: 50px auto;text-align: center;}
+.grow_main .grow_main_bot .grow_main_bot_button ul{display: inline-block;}
+.grow_main .grow_main_bot .grow_main_bot_button .buttonB{cursor:pointer;float:left;width:112px;line-height:35px;color:#000;text-align:center;height:35px;background:#f2b835;border:1px solid #c39222}
+.grow_main .grow_main_bot .grow_main_bot_button .prev{margin-right:10px}
